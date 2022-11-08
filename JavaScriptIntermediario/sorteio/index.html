@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina de Sorteio</title>
+  </head>
+  <body>
+    <h1 id="h1"></h1>
+    <button onclick="sortear()">Sortear</button>
+    <script>
+      function sortear() {
+        let pessoas = ["Tobias", "João", "Marcos", "Maria", "Pedro"];
+
+        let np = pessoas.length;
+
+        let ns = Math.floor(Math.random() * np);
+
+        document.getElementById("h1").innerHTML = pessoas[ns];
+      }
+    </script>
+  </body>
+</html>
