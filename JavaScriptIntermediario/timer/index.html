@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+  </head>
+  <body>
+    <h1 id="h1"></h1>
+    <input onclick="mudarCor()" type="submit" value="Mudar" />
+    <hr />
+    <h1 id="h2"></h1>
+    <input onclick="iniciar()" type="submit" value="Iniciar" />
+    <input onclick="parar()" type="submit" value="Parar" />
+
+    <script>
+      function cor() {
+        let h1 = document.getElementById("h1");
+        h1.style.color = "red";
+      }
+      function mudarCor() {
+        let h1 = document.getElementById("h1");
+        h1.innerHTML = "Novo titulo";
+
+        setTimeout(cor, 3000);
+      }
+      var interval;
+      let numb = 0;
+
+      function atualizar() {
+        let h2 = document.getElementById("h2");
+        h2.innerHTML += "" + numb;
+        numb++;
+      }
+
+      function iniciar() {
+        interval = setInterval(atualizar, 1000);
+      }
+      function parar() {
+        clearInterval(interval);
+      }
+    </script>
+  </body>
+</html>
