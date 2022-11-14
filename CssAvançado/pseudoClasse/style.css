@@ -1,0 +1,21 @@
+input:focus {
+  box-shadow: 5px 3px 4px crimson;
+  color: cyan;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: n;
+  font-size: 50px;
+}
+li:nth-last-of-type(even) {
+  background-color: deeppink;
+}
+
+li:nth-last-of-type(odd) {
+  background-color: lightblue;
+}

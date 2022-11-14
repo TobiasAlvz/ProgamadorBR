@@ -1,0 +1,8 @@
+div {
+  width: 420px;
+  height: 260px;
+  transform: skew(30deg, 30deg);
+  background-color: crimson;
+  margin: 250px;
+  color: beige;
+}

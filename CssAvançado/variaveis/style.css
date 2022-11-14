@@ -1,0 +1,16 @@
+:root {
+  --color: crimson;
+  --size: 300px;
+}
+
+div {
+  width: var(--size);
+  height: var(--size);
+  background-color: cornflowerblue;
+  margin: 20px;
+}
+
+.div2,
+.div3 {
+  background-color: var(--color);
+}
