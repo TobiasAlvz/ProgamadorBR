@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: crimson;
+  height: 400px;
+  color: white;
+}
+
+.r1 {
+  background-color: cornflowerblue;
+}
+
+.r2 {
+  background-color: chartreuse;
+}
+.r3 {
+  background-color: deeppink;
+}
+
+.rect {
+  width: 100px;
+  height: 100px;
+}
