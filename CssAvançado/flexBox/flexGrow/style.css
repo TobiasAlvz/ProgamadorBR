@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: crimson;
+  height: 400px;
+  color: white;
+}
+
+.r1 {
+  flex-grow: 1;
+  background-color: cornflowerblue;
+}
+
+.r2 {
+  flex-grow: 2;
+  background-color: chartreuse;
+}
+.r3 {
+  flex-grow: 3;
+  background-color: deeppink;
+}
+
+.rect {
+  width: 100px;
+  height: 100px;
+}
