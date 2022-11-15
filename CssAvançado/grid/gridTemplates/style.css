@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 10px;
+  display: grid;
+  /* Primeiro vem o numero de linhas, depois de colunas */
+  grid-template: 1fr 2fr / 1fr 2fr 3fr;
+  background-color: crimson;
+  height: 400px;
+  color: white;
+}
+
+.r1 {
+  background-color: cornflowerblue;
+}
+
+.r2 {
+  background-color: chartreuse;
+}
+.r3 {
+  background-color: deeppink;
+}
+
+.rect {
+  margin: 10px;
+  padding: 10px;
+}

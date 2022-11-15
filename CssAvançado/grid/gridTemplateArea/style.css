@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 10px;
+  display: grid;
+  /* Primeiro vem o numero de linhas, depois de colunas */
+  background-color: crimson;
+  height: 400px;
+  color: white;
+  grid-template-areas:
+    "item1 item1 item1"
+    "item2 item2 item3"
+    "item2 item2 item4"
+    "item5 item5 item5"
+    "item5 item5 item5"
+    "item6 item6 item6";
+}
+
+.r1 {
+  background-color: cornflowerblue;
+}
+
+.r2 {
+  background-color: chartreuse;
+}
+.r3 {
+  background-color: deeppink;
+}
+
+.rect {
+  margin: 10px;
+  padding: 10px;
+}
+
+.item1 {
+  grid-area: item1;
+}
+
+.item2 {
+  grid-area: item2;
+}
+
+.item3 {
+  grid-area: item3;
+}
+
+.item5 {
+  grid-area: item5;
+}
+
+.item6 {
+  grid-area: item6;
+}
+.item7 {
+  grid-area: item7;
+}
+.item8 {
+  grid-area: item8;
+}
+
+.item9 {
+  grid-area: item9;
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  padding: 10px;
+  /* Primeiro vem o numero de linhas, depois de colunas */
+  grid-template: 1fr 2fr / 1fr 2fr 3fr;
+  background-color: crimson;
+  height: 400px;
+  color: white;
+  row-gap: 20px;
+  column-gap: 35px;
+}
+
+.r1 {
+  background-color: cornflowerblue;
+}
+
+.r2 {
+  background-color: chartreuse;
+}
+.r3 {
+  background-color: deeppink;
+}
+
+.rect {
+  padding: 10px;
+}
