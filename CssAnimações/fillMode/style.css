@@ -3,11 +3,13 @@
   width: 200px;
   height: 200px;
   animation-name: changeColor;
-  animation-duration: 10s;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
 }
 
 @keyframes changeColor {
-  10% {
+  0% {
     background-color: crimson;
     width: 100px;
   }

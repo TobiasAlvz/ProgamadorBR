@@ -4,6 +4,7 @@
   height: 200px;
   animation-name: changeColor;
   animation-duration: 10s;
+  animation-delay: 3s;
 }
 
 @keyframes changeColor {

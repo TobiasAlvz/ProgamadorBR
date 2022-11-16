@@ -3,7 +3,8 @@
   width: 200px;
   height: 200px;
   animation-name: changeColor;
-  animation-duration: 10s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes changeColor {
