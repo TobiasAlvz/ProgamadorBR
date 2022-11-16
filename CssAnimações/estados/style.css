@@ -1,0 +1,19 @@
+.box {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  animation-name: changeColor;
+  animation-duration: 5s;
+}
+
+@keyframes changeColor {
+  10% {
+    background-color: crimson;
+  }
+  25% {
+    background-color: chartreuse;
+  }
+  100% {
+    background-color: cornflowerblue;
+  }
+}

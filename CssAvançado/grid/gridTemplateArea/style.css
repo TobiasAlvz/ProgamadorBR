@@ -6,7 +6,7 @@
   padding: 10px;
   display: grid;
   /* Primeiro vem o numero de linhas, depois de colunas */
-  background-color: crimson;
+  background-color: indianred;
   height: 400px;
   color: white;
   grid-template-areas:

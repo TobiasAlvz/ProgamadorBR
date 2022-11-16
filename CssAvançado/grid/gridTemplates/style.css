@@ -7,7 +7,7 @@
   display: grid;
   /* Primeiro vem o numero de linhas, depois de colunas */
   grid-template: 1fr 2fr / 1fr 2fr 3fr;
-  background-color: crimson;
+  background-color: coral;
   height: 400px;
   color: white;
 }

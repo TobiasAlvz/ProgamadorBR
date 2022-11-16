@@ -1,0 +1,16 @@
+.box {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  animation-name: changeColor;
+  animation-duration: 5s;
+}
+
+@keyframes changeColor {
+  from {
+    background-color: crimson;
+  }
+  to {
+    background-color: cornflowerblue;
+  }
+}
