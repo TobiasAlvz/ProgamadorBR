@@ -1,0 +1,54 @@
+.box {
+  position: relative;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  animation-name: mudar;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+/* @keyframes changeColor {
+  10% {
+    background-color: crimson;
+    width: 100px;
+  }
+  25% {
+    background-color: chartreuse;
+  }
+  50% {
+    background-color: chartreuse;
+    width: 400px;
+  }
+  100% {
+    background-color: cornflowerblue;
+  }
+} */
+
+@keyframes mudar {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 300px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.div1 {
+  animation-timing-function: linear;
+}
+.div2 {
+  animation-timing-function: ease;
+}
+.div3 {
+  animation-timing-function: ease-in;
+}
+.div4 {
+  animation-timing-function: ease-out;
+}
+.div5 {
+  animation-timing-function: ease-in-out;
+}
