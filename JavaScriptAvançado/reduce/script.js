@@ -8,7 +8,7 @@ const students = [
   { name: "Maria", age: 12 },
   { name: "Wilson", age: 8 },
   { name: "Leandro", age: 7 },
-  { name: "José", age: 11 },
+  { name: "Jose", age: 11 },
   newStudent("Marcio", 10),
 ];
 
@@ -18,3 +18,14 @@ const ageTotal = students.reduce((acumulador, student) => {
 }, 0);
 
 console.log(ageTotal);
+
+const cl = students.reduce(function (acumulador, personagem) {
+  if (acumulador[personagem]) {
+    acumulador[personagem.name].push(personagem);
+  } else {
+    acumulador[personagem.name] = [personagem];
+  }
+  return acumulador;
+}, {});
+
+console.log(cl);
