@@ -1,18 +1,12 @@
-const url = "https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL";
+const nome = "";
 
-const converter = () => {
-  const value = document.getElementById("value").value;
+try {
+  if (nome.length == 0) {
+    throw new Error("nome vazio");
+  }
+  console.log(nome);
+} catch (error) {
+  console.log("Ocorreu um erro", error);
+}
 
-  // Vai retornar uma promise
-  fetch(url)
-    .then((res) => {
-      return res.json();
-    })
-    .then((data) => {
-      console.log(data.USDBRL.ask);
-
-      const rates = data.USDBRL.ask;
-
-      document.getElementById("res").innerHTML = rates * value;
-    });
-};
+console.log("Oi");
