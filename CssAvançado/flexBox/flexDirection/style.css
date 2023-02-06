@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  flex-direction: column-reverse;
+
   background-color: crimson;
   height: 400px;
   color: white;
@@ -13,6 +13,7 @@
 .r2 {
   background-color: chartreuse;
 }
+
 .r3 {
   background-color: deeppink;
 }
