@@ -9,7 +9,7 @@ console.log(a);
 let b = JSON.stringify(a);
 console.log(b);
 
-let a2 = '{"nome": "Ana", "nota":9}';
+let a2 = '{"nome": "Ana", "nota":9}'
 
 let b2 = JSON.parse(a2);
 
